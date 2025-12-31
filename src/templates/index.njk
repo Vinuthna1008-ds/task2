@@ -1,0 +1,51 @@
+{% extends "layout.njk" %}
+{% set title = "Sweet Bites" %}
+
+{% block content %}
+
+<section class="bg-light py-5">
+  <div class="container text-center">
+    <h1 class="display-5">Freshly Baked Happiness</h1>
+    <p class="lead">Delicious cakes, breads, and pastries made fresh every day</p>
+    <a href="#menu" class="btn btn-warning btn-lg">View Menu</a>
+  </div>
+</section>
+
+<section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Bakery Items</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Cake">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Cake</h5>
+            <p class="card-text">Rich and moist chocolate cake topped with cream.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Bread">
+          <div class="card-body">
+            <h5 class="card-title">Fresh Bread</h5>
+            <p class="card-text">Soft and healthy bread baked every morning.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Pastry">
+          <div class="card-body">
+            <h5 class="card-title">Cream Pastry</h5>
+            <p class="card-text">Light pastry filled with fresh cream.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

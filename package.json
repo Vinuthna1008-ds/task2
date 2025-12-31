@@ -1,0 +1,13 @@
+{
+  "name": "task-2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  "dev": "vite",
+  "build": "node build.js"
+},
+  "dependencies": {
+    "nunjucks": "^3.2.4",
+    "vite": "^5.0.0"
+  }
+}
